@@ -1,0 +1,32 @@
+.lead__caption {
+    width: 159px;
+    height: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 8px 0 0 16px;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .lead__caption {
+        padding: 8px 0 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__caption {
+        padding-left: 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__caption {
+        padding-left: 148px;
+    }
+}
