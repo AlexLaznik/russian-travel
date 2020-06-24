@@ -1,7 +1,7 @@
 .footer__copyright {
     width: 100%;
     min-height: 14px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -16,18 +16,6 @@
         line-height: 16px;
         text-align: right;
         margin: 0;
-        padding-left: 52px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .footer__copyright {
-        padding-left: 258px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .footer__copyright {
-        padding-left: 520px;
+        justify-self: end;
     }
 }

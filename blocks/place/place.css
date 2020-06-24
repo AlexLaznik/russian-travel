@@ -1,26 +1,24 @@
 @import url('./__image/__image.css');
+@import url('./__paragraphs/__paragraphs.css');
 @import url('./__paragraph/__paragraph.css');
-@import url('./__paragraph/__paragraph-bottom/__paragraph-bottom.css');
 @import url('./__title/__title.css');
 @import url('./__website/__website.css');
-@import url('./__website/__link/__link.css');
-@import url('./__website/__url-heading/__url-heading.css');
+@import url('./__link/__link.css');
+@import url('./__url-heading/__url-heading.css');
 
 .place {
-    width: 100%;
+    width: 90%;
 }
 
 @media screen and (min-width: 768px) {
     .place {
         display: grid;
         grid-template-columns: repeat(2, minmax(min-content, max-content));
-        grid-template-rows: repeat(5, minmax(min-content, max-content));
+        grid-template-rows: repeat(3, minmax(min-content, max-content));
         grid-template-areas: 
         "title website"
         "image paragraph"
-        "image paragraph"
-        "image paragraph-bottom"
-        "image paragraph-bottom";
+        "image paragraph";
         grid-gap: 28px 24px;
         padding: 0 24px 72px;
     }

@@ -4,17 +4,17 @@
 .footer {
     display: flex;
     flex-direction: column;
-    width: 186px;
+    min-width: 186px;
     height: 310px;
     padding: 64px 118px 24px 16px;
+    background: #2a2c2f;
 }
 
 @media screen and (min-width: 768px) {
     .footer {
         display: grid;
-        grid-template-columns: repeat(6, minmax(min-content, max-content));
+        grid-template-columns: repeat(5, minmax(min-content, max-content)) 1fr;
         grid-gap: 18px;
-        width: 720px;
         height: 18px;
         padding: 88px 24px 24px;
     }
@@ -22,13 +22,6 @@
 
 @media screen and (min-width: 1024px) {
     .footer {
-        width: 928px;
         padding: 92px 48px 24px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .footer {
-        width: 1184px;
     }
 }
