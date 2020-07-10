@@ -8,7 +8,7 @@
 @media screen and (min-width: 768px) {
     .place__website {
         width: 352px;
-        height: 46px;
+        min-height: 46px;
         grid-area: website;
         align-self: end;
     }

@@ -1,6 +1,7 @@
-@import url('./__logo/__logo.css');
-@import url('./__lang-links/__lang-links.css');
-@import url('./__lang-link/__lang-link.css');
+@import url('./__logo/header__logo.css');
+@import url('./__lang-links/header__lang-links.css');
+@import url('./__lang-link/header__lang-link.css');
+@import url('./__lang-link/_active/header__lang-link_active.css');
 
 .header {
     display: flex;
@@ -8,14 +9,12 @@
     justify-content: space-between;
     align-items: center;
     min-width: 288px;
-    min-height: 42px;
     padding: 16px 16px 48px;
     background: #2a2c2f;
 }
 
 @media screen and (min-width: 768px) {
     .header {
-        min-height: 52px;
         padding: 28px 28px 48px;
     }
 }

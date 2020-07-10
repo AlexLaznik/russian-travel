@@ -1,7 +1,16 @@
-@import url('./__navigation/__navigation.css');
-@import url('./__link/__link.css');
-@import url('./__copyright/__copyright.css');
+@import url('./__navigation/footer__navigation.css');
+@import url('./__link/footer__link.css');
+@import url('./__copyright/footer__copyright.css');
+@import url('./__unordered-list/footer__unordered-list.css');
+@import url('./__list-item/footer__list-item.css');
 
 .footer {
     background: #2a2c2f;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(min-content, max-content)) 1fr;
+    }
 }

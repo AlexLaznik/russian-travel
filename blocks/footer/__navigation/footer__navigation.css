@@ -1,0 +1,16 @@
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__navigation {
+        padding: 88px 0 0 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__navigation {
+        padding: 92px 0 0 48px;
+    }
+}

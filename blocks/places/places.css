@@ -1,21 +1,4 @@
 .places {
-    width: 320px;
-}
-
-@media screen and (min-width: 768px) {
-    .places {
-        width: 720px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .places {
-        width: 928px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .places {
-        width: 984px;
-    }
+    min-width: 320px;
+    max-width: 1920px;
 }
