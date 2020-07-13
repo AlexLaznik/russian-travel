@@ -17,6 +17,7 @@
         line-height: 46px;
         grid-area: title;
         padding: 0;
+        text-align: start;
     }
 }
 

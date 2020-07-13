@@ -10,7 +10,6 @@
 }
 
 .footer__link:hover {
-    color: rgb(132, 138, 132);
     transition: color .2s linear .2s;
     opacity: .8;
 }

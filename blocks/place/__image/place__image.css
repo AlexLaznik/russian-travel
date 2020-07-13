@@ -1,4 +1,6 @@
 .place__image {
+    display: block;
+    margin: 0 auto;
     height: 320px;
     padding-bottom: 32px;
 }

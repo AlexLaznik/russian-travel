@@ -1,14 +1,11 @@
 .place__website {
-    width: 0;
-    height: 0;
-    margin: 0;
-    padding: 0;
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
     .place__website {
+        display: grid;
         width: 352px;
-        min-height: 46px;
         grid-area: website;
         align-self: end;
     }

@@ -1,4 +1,6 @@
 .places {
     min-width: 320px;
-    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
